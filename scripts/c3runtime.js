@@ -4888,6 +4888,7 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 		C3.Plugins.LocalStorage.Acts.SetItem,
 		C3.Plugins.VKBridge.Acts.LeaderSave,
 		C3.Plugins.System.Cnds.OnLayoutStart,
+		C3.Plugins.Text.Acts.Destroy,
 		C3.Plugins.Audio.Acts.SetVolume,
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.Mouse.Cnds.OnClick,
@@ -4983,6 +4984,7 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 		{Score: 0},
 		{speed: 0},
 		{Timer: 0},
+		{FirstTry: 0},
 		{sound: 0},
 		{touch: 0}
 	];
@@ -5216,6 +5218,7 @@ value:this._waitTime,onedit:v=>this._waitTime=v},{name:prefix+".properties.fade-
 		() => "sec",
 		() => "score",
 		() => 6,
+		() => 6.6,
 		() => "sound2",
 		() => -5,
 		() => "Time2",
